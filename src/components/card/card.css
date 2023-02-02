@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.main{
+    background-color: rgba(255, 132, 0, 0.902);
+    border-radius: 10px;
+
+}
+.card-container{
+    
+    width: 400px;
+    height: auto;
+    padding: 12px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.cards{
+    padding: 12px;
+    border-radius: 10px;
+    max-width: min-content;
+    background-color: rgba(255, 192, 148, 0.888);
+    color: rgb(0, 0, 0);
+    margin: 8px;
+    
+}
+img{
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+}
