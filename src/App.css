@@ -7,4 +7,17 @@ body{
   background-color: rgba(232, 211, 90, 0.985);
 }
 
-
+.container{
+  background-color: rgba(255, 132, 0, 0.902);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 8px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
